@@ -2,13 +2,20 @@ using UnityEngine;
 
 public class AudioManagement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip somChoque;
+    [SerializeField] private AudioClip somGrito;
+    [SerializeField] private AudioClip somChicote;
+    [SerializeField] private AudioClip somAfogamento;
+    [SerializeField] private AudioClip somMurro;
+    [SerializeField] private AudioClip somTapa;
+    [SerializeField] private AudioClip somMarteloTribunal;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         

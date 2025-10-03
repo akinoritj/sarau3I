@@ -1,0 +1,31 @@
+Cena 1
+- musica inicial
+
+Cena 2
+- musica para os esquerda
+- musica para os direita
+
+Cena 3
+- musica ambiente
+
+Cena 4
+- som de bomba
+
+Cena 5
+- musica ambiente
+
+Cena 6
+- sons de choque
+- afogament
+- espancamento
+- chicote
+- gritos
+
+Cena 7
+- som de martelo de tribunal
+
+Cena 8
+- 
+
+Cena 9
+- 
