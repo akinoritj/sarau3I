@@ -10,6 +10,11 @@ public class AudioManagement : MonoBehaviour
     [SerializeField] private AudioClip somMurro;
     [SerializeField] private AudioClip somTapa;
     [SerializeField] private AudioClip somMarteloTribunal;
+    [SerializeField] private AudioClip somExplosao;
+    [SerializeField] private AudioClip musicaCalice;
+    [SerializeField] private AudioClip musica2;
+    [SerializeField] private AudioClip musicaAmbiente;
+
     void Start()
     {
 
@@ -53,5 +58,30 @@ public class AudioManagement : MonoBehaviour
     public void BotaoMarteloTribunal()
     {
         audioSource.PlayOneShot(somMarteloTribunal);
+    }
+
+    public void BotaoExplosao()
+    {
+        audioSource.PlayOneShot(somExplosao);
+    }
+
+    public void BotaoMusicaCalice()
+    {
+        audioSource.PlayOneShot(musicaCalice);
+    }
+
+    public void BotaoMusica2()
+    {
+        audioSource.PlayOneShot(musica2);
+    }
+
+    public void BotaoMusicaAmbiente()
+    {
+        audioSource.PlayOneShot(musicaAmbiente);
+    }
+
+    public void PararAudio()
+    {
+        audioSource.Stop();
     }
 }
