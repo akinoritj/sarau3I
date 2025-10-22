@@ -4,16 +4,16 @@ public class AudioManagement : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip somChoque;
-    [SerializeField] private AudioClip somGrito;
+    [SerializeField] private AudioClip somExplosao;
     [SerializeField] private AudioClip somChicote;
     [SerializeField] private AudioClip somAfogamento;
-    [SerializeField] private AudioClip somMurro;
-    [SerializeField] private AudioClip somTapa;
-    [SerializeField] private AudioClip somMarteloTribunal;
-    [SerializeField] private AudioClip somExplosao;
+    [SerializeField] private AudioClip somEspancamento;
+    [SerializeField] private AudioClip somAfogamento2;
+    [SerializeField] private AudioClip musicaRuaAugusta;
     [SerializeField] private AudioClip musicaCalice;
-    [SerializeField] private AudioClip musica2;
-    [SerializeField] private AudioClip musicaAmbiente;
+    [SerializeField] private AudioClip musicaPaixao;
+    [SerializeField] private AudioClip musicaHoje;
+    [SerializeField] private AudioClip musicaBanhodeLua;
 
     void Start()
     {
@@ -30,9 +30,9 @@ public class AudioManagement : MonoBehaviour
         audioSource.PlayOneShot(somChoque);
     }
 
-    public void BotaoGrito()
+    public void BotaoMscHoje()
     {
-        audioSource.PlayOneShot(somGrito);
+        audioSource.PlayOneShot(musicaHoje);
     }
 
     public void BotaoChicote()
@@ -45,19 +45,19 @@ public class AudioManagement : MonoBehaviour
         audioSource.PlayOneShot(somAfogamento);
     }
 
-    public void BotaoMurro()
+    public void BotaoEspancamento()
     {
-        audioSource.PlayOneShot(somMurro);
+        audioSource.PlayOneShot(somEspancamento);
     }
 
-    public void BotaoTapa()
+    public void BotaoAfogamento2()
     {
-        audioSource.PlayOneShot(somTapa);
+        audioSource.PlayOneShot(somAfogamento2);
     }
 
-    public void BotaoMarteloTribunal()
+    public void BotaoRuaAugusta()
     {
-        audioSource.PlayOneShot(somMarteloTribunal);
+        audioSource.PlayOneShot(musicaRuaAugusta);
     }
 
     public void BotaoExplosao()
@@ -70,14 +70,14 @@ public class AudioManagement : MonoBehaviour
         audioSource.PlayOneShot(musicaCalice);
     }
 
-    public void BotaoMusica2()
+    public void BotaoPaixao()
     {
-        audioSource.PlayOneShot(musica2);
+        audioSource.PlayOneShot(musicaPaixao);
     }
 
-    public void BotaoMusicaAmbiente()
+    public void BotaoMusicaBanhoDeLua()
     {
-        audioSource.PlayOneShot(musicaAmbiente);
+        audioSource.PlayOneShot(musicaBanhodeLua);
     }
 
     public void PararAudio()
