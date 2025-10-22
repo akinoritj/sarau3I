@@ -84,4 +84,9 @@ public class AudioManagement : MonoBehaviour
     {
         audioSource.Stop();
     }
+
+    public void Sair()
+    {
+        Application.Quit();
+    }
 }
